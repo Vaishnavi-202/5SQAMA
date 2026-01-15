@@ -1,13 +1,13 @@
 pipeline {
-    agent { label 'wja' }
+    agent { label 'WJA-WINDOWS' }
 
     options {
         timestamps()
-        disableConcurrentBuilds()
+        ansiColor('xterm')
     }
 
     environment {
-        PYTHONUTF8 = '1'
+        PYTHONUNBUFFERED = '1'
     }
 
     stages {
@@ -18,10 +18,20 @@ pipeline {
             }
         }
 
-        stage('Python Setup') {
+        stage('Verify Windows Agent') {
             steps {
                 bat '''
+                echo OS INFO:
+                ver
                 python --version
+                where python
+                '''
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                bat '''
                 python -m pip install --upgrade pip
                 pip install pytest allure-pytest pillow pywinauto
                 '''
@@ -30,23 +40,24 @@ pipeline {
 
         stage('Run WJA Tests') {
             steps {
-                bat '''
-                cd qama_regression_ascendion
-                pytest -v -m %TEST_SUITE% --alluredir=allure-results
-                '''
+                dir('qama_regression_ascendion') {
+                    bat '''
+                    pytest -v tests/windows/wja --alluredir=allure-results
+                    '''
+                }
             }
         }
     }
 
     post {
         always {
-            archiveArtifacts artifacts: 'qama_regression_ascendion/allure-results/**', fingerprint: true
+            archiveArtifacts artifacts: 'qama_regression_ascendion/allure-results/**', allowEmptyArchive: true
         }
         failure {
             echo '❌ WJA tests failed'
         }
         success {
-            echo '✅ WJA tests passed'
+            echo '✅ WJA tests completed successfully'
         }
     }
 }
