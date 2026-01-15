@@ -8,7 +8,7 @@ on:
 
 jobs:
   non-wja-tests:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -18,11 +18,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install test dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest allure-pytest pillow
+          pip install pytest allure-pytest pillow
 
       - name: Run NON-WJA tests
         working-directory: qama_regression_ascendion
