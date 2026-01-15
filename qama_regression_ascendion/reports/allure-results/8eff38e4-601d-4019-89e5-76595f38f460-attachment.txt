@@ -1,0 +1,11 @@
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:26 Resolving TreeView once
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:37 Caching tree item: \All Devices
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:40 Selecting tree item: all
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:37 Caching tree item: \Error Devices
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:40 Selecting tree item: error
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:37 Caching tree item: \Warning Devices
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:40 Selecting tree item: warning
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:37 Caching tree item: \New (Last Discovery)
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:40 Selecting tree item: new
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:37 Caching tree item: \Ungrouped Devices
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:40 Selecting tree item: ungrouped

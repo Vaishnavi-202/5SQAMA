@@ -1,0 +1,7 @@
+Test,Time (seconds)
+windows/wja/test_wja1_launch.py::test_wja_launch,91.36
+windows/wja/test_wja2_help_about.py::test_help_about_flow,3.58
+windows/wja/test_wja2_help_about.py::test_help_about_details_flow,4.87
+windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items,35.53
+windows/wja/test_wja4_navigation.py::test_quick_device_discovery,93.7
+windows/wja/test_wja5_group_create.py::test_create_and_delete_group,76.08

@@ -1,0 +1,386 @@
+2026-01-02 14:29:15,052 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-02 14:30:49,117 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 14:30:49,834 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 14:30:49,889 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 14:30:50,485 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 14:30:50,814 | INFO | libs.flows.windows.wja.wja_main_page | Viewed About details
+2026-01-02 14:34:18,062 | INFO | libs.flows.windows.wja.wja_navigation_page | Clicked: Overview
+2026-01-02 14:35:01,565 | INFO | libs.flows.windows.wja.wja_navigation_page | Clicked: Groups
+2026-01-02 14:35:38,929 | INFO | libs.flows.windows.wja.wja_navigation_page | Clicked: Discovery
+2026-01-02 14:36:22,870 | INFO | libs.flows.windows.wja.wja_navigation_page | Clicked: Configuration
+2026-01-02 14:37:32,953 | INFO | pytest | Closing HP Web Jetadmin
+2026-01-02 14:46:16,333 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-02 14:47:50,220 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 14:47:51,096 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 14:47:51,155 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 14:47:51,701 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 14:47:52,035 | INFO | libs.flows.windows.wja.wja_main_page | Viewed About details
+2026-01-02 14:48:23,255 | INFO | libs.flows.windows.wja.wja_navigation_page | Caching navigation tree items
+2026-01-02 14:49:13,007 | INFO | libs.flows.windows.wja.wja_navigation_page | Selecting navigation item: Overview
+2026-01-02 14:49:22,994 | INFO | libs.flows.windows.wja.wja_navigation_page | Selecting navigation item: Groups
+2026-01-02 14:49:31,969 | INFO | libs.flows.windows.wja.wja_navigation_page | Selecting navigation item: Discovery
+2026-01-02 14:49:40,249 | INFO | libs.flows.windows.wja.wja_navigation_page | Selecting navigation item: Configuration
+2026-01-02 14:50:55,575 | INFO | pytest | Closing HP Web Jetadmin
+2026-01-02 15:10:49,682 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-02 15:12:17,325 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 15:13:34,031 | INFO | libs.flows.windows.wja.wja_navigation_page | Caching navigation tree items
+2026-01-02 15:16:40,259 | INFO | pytest | Closing HP Web Jetadmin
+2026-01-02 15:23:30,597 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-02 15:25:01,026 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 15:25:54,446 | INFO | libs.flows.windows.wja.wja_navigation_page | Caching navigation tree items
+2026-01-02 15:28:40,427 | INFO | pytest | Closing HP Web Jetadmin
+2026-01-02 15:33:26,566 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-02 15:34:57,548 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 15:35:49,930 | INFO | libs.flows.windows.wja.wja_navigation_page | Caching navigation tree items
+2026-01-02 15:38:43,708 | INFO | pytest | Closing HP Web Jetadmin
+2026-01-02 16:02:58,108 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 16:03:03,651 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-02 16:03:10,734 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-02 16:03:34,691 | INFO | libs.flows.windows.wja.wja_navigation_page | Caching left navigation tree items
+2026-01-02 16:10:46,794 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 16:10:47,425 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-02 16:10:51,017 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 16:10:52,074 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 16:10:55,662 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 16:10:57,987 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-02 16:10:59,045 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-02 16:11:20,287 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-02 16:11:28,145 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-02 16:11:29,738 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-02 16:11:31,227 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-02 16:11:32,718 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-02 16:11:53,023 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-02 16:11:57,972 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-02 16:11:59,720 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-02 16:12:01,932 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-02 16:27:59,748 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 16:27:59,907 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-02 16:28:03,206 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 16:28:04,260 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 16:28:07,586 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 16:28:09,913 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-02 16:28:10,940 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-02 16:28:24,579 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-02 16:28:28,400 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-02 16:28:29,639 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-02 16:28:30,851 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-02 16:28:32,219 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-02 16:28:44,836 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-02 16:28:47,125 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-02 16:28:48,361 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-02 16:28:49,917 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-02 16:38:47,069 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 16:38:47,312 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-02 16:38:50,667 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 16:38:51,721 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 16:38:55,045 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 16:38:57,359 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-02 16:38:58,401 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-02 16:39:08,028 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-02 16:39:11,652 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-02 16:39:12,874 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-02 16:39:14,086 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-02 16:39:15,318 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-02 16:39:25,675 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-02 16:39:28,383 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-02 16:39:29,628 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-02 16:39:31,174 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-02 17:23:01,466 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-02 17:24:26,801 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 17:24:26,971 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-02 17:24:26,971 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.17s
+2026-01-02 17:24:30,393 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 17:24:31,449 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 17:24:31,451 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.47s
+2026-01-02 17:24:34,787 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 17:24:37,102 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-02 17:24:37,104 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.64s
+2026-01-02 17:24:38,127 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving device tree (once)
+2026-01-02 17:24:50,616 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-02 17:24:53,881 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 15.75s
+2026-01-02 17:24:53,983 | ERROR | pytest | 📸 Screenshot attached to Allure
+2026-01-02 17:24:55,019 | INFO | libs.flows.windows.wja.wja_navigation_page | Caching left navigation tree items
+2026-01-02 17:25:05,912 | INFO | libs.flows.windows.wja.wja_navigation_page | Cached navigation item: Overview
+2026-01-02 17:25:13,229 | INFO | libs.flows.windows.wja.wja_navigation_page | Cached navigation item: Groups
+2026-01-02 17:25:15,998 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-02 17:27:30,622 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-02 17:28:55,663 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 17:28:56,175 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-02 17:28:56,190 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.52s
+2026-01-02 17:28:59,550 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 17:29:00,610 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 17:29:00,612 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.37s
+2026-01-02 17:29:03,933 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 17:29:06,273 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-02 17:29:06,275 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.65s
+2026-01-02 17:29:07,285 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-02 17:29:40,682 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-02 17:29:40,762 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-02 17:29:41,779 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-02 17:29:41,878 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-02 17:29:42,983 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-02 17:29:43,090 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-02 17:29:44,179 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-02 17:29:44,284 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-02 17:29:45,380 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-02 17:29:45,493 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-02 17:29:46,594 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 39.31s
+2026-01-02 17:29:55,877 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-02 17:29:58,313 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-02 17:29:59,996 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-02 17:30:01,918 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-02 17:30:03,456 | INFO | pytest | ⏱ windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 15.85s
+2026-01-02 17:31:07,876 | INFO | pytest | ⏱ windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 63.41s
+2026-01-02 17:31:07,880 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-02 17:32:20,578 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-02 17:33:40,865 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-02 17:33:41,033 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-02 17:33:41,045 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.17s
+2026-01-02 17:33:44,610 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 17:33:45,665 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-02 17:33:45,680 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.50s
+2026-01-02 17:33:50,733 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-02 17:33:53,052 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-02 17:33:53,072 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 5.94s
+2026-01-02 17:33:54,130 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-02 17:34:14,402 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-02 17:34:14,522 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-02 17:34:18,310 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-02 17:34:18,426 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-02 17:34:19,547 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-02 17:34:19,656 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-02 17:34:20,758 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-02 17:34:20,869 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-02 17:34:21,976 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-02 17:34:22,088 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-02 17:34:23,221 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 29.07s
+2026-01-02 17:34:39,244 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-02 17:34:41,606 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-02 17:34:42,864 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-02 17:34:44,434 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-02 17:34:45,930 | INFO | pytest | ⏱ windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 21.49s
+2026-01-02 17:35:38,752 | INFO | pytest | ⏱ windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 51.75s
+2026-01-02 17:35:38,756 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-05 11:59:13,302 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 12:09:21,769 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 12:10:41,057 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 12:10:41,223 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 12:10:41,224 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.17s
+2026-01-05 12:10:44,568 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 12:10:45,621 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 12:10:45,623 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.39s
+2026-01-05 12:10:48,953 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 12:10:51,264 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-05 12:10:51,266 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.64s
+2026-01-05 12:10:52,275 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 12:10:59,875 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 12:10:59,950 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 12:11:03,119 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-05 12:11:03,205 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-05 12:11:04,293 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-05 12:11:04,368 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-05 12:11:05,450 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-05 12:11:05,529 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-05 12:11:06,619 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-05 12:11:06,702 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-05 12:11:07,793 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 15.52s
+2026-01-05 12:11:15,527 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-05 12:11:17,789 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-05 12:11:19,012 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-05 12:11:20,457 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-05 12:11:21,858 | INFO | pytest | ⏱ windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 13.06s
+2026-01-05 12:11:55,641 | INFO | pytest | ⏱ windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 32.77s
+2026-01-05 12:11:55,643 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-05 12:14:15,179 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 12:15:34,068 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 12:15:34,276 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 12:15:34,277 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.21s
+2026-01-05 12:15:37,587 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 12:15:38,641 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 12:15:38,643 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.36s
+2026-01-05 12:15:41,960 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 12:15:44,270 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-05 12:15:44,273 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.62s
+2026-01-05 12:15:45,283 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 12:15:53,319 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 12:15:53,393 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 12:15:56,402 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-05 12:15:56,524 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-05 12:15:57,655 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-05 12:15:57,754 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-05 12:15:58,857 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-05 12:15:58,945 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-05 12:16:00,041 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-05 12:16:00,127 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-05 12:16:01,216 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 15.93s
+2026-01-05 12:16:10,605 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-05 12:16:12,739 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-05 12:16:13,972 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-05 12:16:15,415 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-05 12:16:16,809 | INFO | pytest | ⏱ windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 14.59s
+2026-01-05 12:16:50,512 | INFO | pytest | ⏱ windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 32.69s
+2026-01-05 12:16:50,515 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-05 14:15:37,982 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 14:17:00,099 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 14:17:00,291 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 14:17:00,292 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.19s
+2026-01-05 14:17:03,612 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 14:17:04,668 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 14:17:04,671 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.37s
+2026-01-05 14:17:08,012 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 14:17:10,323 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-05 14:17:10,324 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.64s
+2026-01-05 14:17:11,334 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 14:17:18,989 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 14:17:19,069 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 14:17:22,313 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-05 14:17:22,411 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-05 14:17:23,501 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-05 14:17:23,579 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-05 14:17:24,663 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-05 14:17:24,744 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-05 14:17:25,835 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-05 14:17:25,916 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-05 14:17:27,001 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 15.67s
+2026-01-05 14:17:34,667 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-05 14:17:36,892 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-05 14:17:38,089 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-05 14:17:39,596 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-05 14:17:41,028 | INFO | pytest | ⏱ windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 13.02s
+2026-01-05 14:18:18,429 | INFO | pytest | ⏱ windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 36.39s
+2026-01-05 14:18:18,431 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-05 21:34:57,385 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 21:57:22,610 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 22:07:51,285 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 22:09:16,188 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 22:09:16,569 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 22:09:16,570 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.38s
+2026-01-05 22:09:19,942 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 22:09:20,998 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 22:09:21,001 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.41s
+2026-01-05 22:09:24,348 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 22:09:26,659 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-05 22:09:26,661 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.65s
+2026-01-05 22:09:27,672 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 22:09:43,413 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 22:09:43,509 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 22:09:48,681 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-05 22:09:48,876 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-05 22:09:50,009 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-05 22:09:50,159 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-05 22:09:51,279 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-05 22:09:51,396 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-05 22:09:52,557 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-05 22:09:52,723 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-05 22:09:53,821 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 26.15s
+2026-01-05 22:10:08,438 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-05 22:10:12,362 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-05 22:10:13,734 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-05 22:10:15,544 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-05 22:10:17,113 | INFO | pytest | ⏱ windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 22.28s
+2026-01-05 22:11:14,423 | INFO | pytest | ⏱ windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 56.30s
+2026-01-05 22:11:14,427 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-05 22:21:47,139 | INFO | pytest | 🚀 Launching HP Web Jetadmin (session)
+2026-01-05 22:23:15,977 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 22:23:16,353 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 22:23:16,363 | INFO | pytest | ⏱ windows/wja/test_wja1_launch.py::test_wja_launch took 0.38s
+2026-01-05 22:23:19,845 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 22:23:20,900 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 22:23:20,921 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.47s
+2026-01-05 22:23:24,350 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 22:23:26,664 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-05 22:23:26,684 | INFO | pytest | ⏱ windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.68s
+2026-01-05 22:23:27,762 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 22:23:46,719 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 22:23:46,808 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 22:23:55,151 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-05 22:23:55,556 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-05 22:23:56,788 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-05 22:23:57,052 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-05 22:23:58,275 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-05 22:23:58,545 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-05 22:23:59,796 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-05 22:24:00,062 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-05 22:24:01,229 | INFO | pytest | ⏱ windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 33.45s
+2026-01-05 22:24:17,726 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-05 22:24:22,151 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-05 22:24:23,772 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-05 22:24:26,371 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-05 22:24:28,604 | INFO | pytest | ⏱ windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 26.28s
+2026-01-05 22:25:30,063 | INFO | pytest | ⏱ windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 60.37s
+2026-01-05 22:25:30,067 | INFO | pytest | 🛑 Closing HP Web Jetadmin
+2026-01-05 22:30:55,850 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-05 22:32:20,871 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 22:32:21,243 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 22:32:21,245 | INFO | pytest | windows/wja/test_wja1_launch.py::test_wja_launch took 0.37s
+2026-01-05 22:32:24,670 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 22:32:25,727 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 22:32:25,729 | INFO | pytest | windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.48s
+2026-01-05 22:32:29,140 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 22:32:31,456 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-05 22:32:31,457 | INFO | pytest | windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.72s
+2026-01-05 22:32:32,466 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 22:32:50,170 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 22:32:50,274 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 22:32:58,821 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-05 22:32:59,090 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-05 22:33:00,313 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-05 22:33:00,586 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-05 22:33:01,838 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-05 22:33:02,124 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-05 22:33:03,325 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-05 22:33:03,610 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-05 22:33:04,838 | INFO | pytest | windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 32.37s
+2026-01-05 22:33:20,942 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-05 22:33:25,184 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-05 22:33:26,862 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-05 22:33:29,464 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-05 22:33:31,831 | INFO | pytest | windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 25.98s
+2026-01-05 22:34:37,488 | INFO | pytest | windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 64.65s
+2026-01-05 22:34:37,491 | INFO | pytest | Closing HP Web Jetadmin
+2026-01-05 23:36:06,315 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-05 23:37:35,427 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 23:37:35,674 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 23:37:35,683 | INFO | pytest | windows/wja/test_wja1_launch.py::test_wja_launch took 0.25s
+2026-01-05 23:37:39,088 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 23:37:40,143 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 23:37:40,159 | INFO | pytest | windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.39s
+2026-01-05 23:37:49,470 | INFO | pytest | windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 8.22s
+2026-01-05 23:37:49,997 | ERROR | pytest | Screenshot captured for test_help_about_details_flow
+2026-01-05 23:37:51,070 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 23:38:14,653 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 23:38:14,755 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 23:38:21,050 | INFO | pytest | windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 29.96s
+2026-01-05 23:38:21,373 | ERROR | pytest | Screenshot captured for test_device_navigation_tree_items
+2026-01-05 23:38:40,542 | INFO | pytest | windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 18.05s
+2026-01-05 23:38:40,659 | ERROR | pytest | Screenshot captured for test_quick_device_discovery
+2026-01-05 23:38:45,160 | INFO | pytest | Closing HP Web Jetadmin
+2026-01-05 23:39:38,569 | INFO | pytest | Launching HP Web Jetadmin (session)
+2026-01-05 23:41:14,525 | INFO | libs.flows.windows.wja.base_page | Resolving HP Web Jetadmin main window
+2026-01-05 23:41:14,846 | INFO | libs.flows.windows.wja.wja_main_page | WJA main window is visible
+2026-01-05 23:41:14,857 | INFO | pytest | windows/wja/test_wja1_launch.py::test_wja_launch took 0.32s
+2026-01-05 23:41:18,297 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 23:41:19,353 | INFO | libs.flows.windows.wja.wja_main_page | Closed About dialog
+2026-01-05 23:41:19,375 | INFO | pytest | windows/wja/test_wja2_help_about.py::test_help_about_flow took 3.44s
+2026-01-05 23:41:22,848 | INFO | libs.flows.windows.wja.wja_main_page | Opened About dialog
+2026-01-05 23:41:25,160 | INFO | libs.flows.windows.wja.wja_main_page | Opened About details and closed
+2026-01-05 23:41:25,180 | INFO | pytest | windows/wja/test_wja2_help_about.py::test_help_about_details_flow took 4.72s
+2026-01-05 23:41:26,223 | INFO | libs.flows.windows.wja.wja_device_tree_page | Resolving TreeView once
+2026-01-05 23:41:38,635 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \All Devices
+2026-01-05 23:41:38,731 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: all
+2026-01-05 23:41:39,755 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Error Devices
+2026-01-05 23:41:39,874 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: error
+2026-01-05 23:41:40,988 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Warning Devices
+2026-01-05 23:41:41,115 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: warning
+2026-01-05 23:41:42,330 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \New (Last Discovery)
+2026-01-05 23:41:42,614 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: new
+2026-01-05 23:41:43,749 | INFO | libs.flows.windows.wja.wja_device_tree_page | Caching tree item: \Ungrouped Devices
+2026-01-05 23:41:43,884 | INFO | libs.flows.windows.wja.wja_device_tree_page | Selecting tree item: ungrouped
+2026-01-05 23:41:45,015 | INFO | pytest | windows/wja/test_wja3_tree_navigate.py::test_device_navigation_tree_items took 18.78s
+2026-01-05 23:42:01,054 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Overview
+2026-01-05 23:42:05,198 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Groups
+2026-01-05 23:42:07,200 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Discovery
+2026-01-05 23:42:09,515 | INFO | libs.flows.windows.wja.wja_navigation_page | Navigating to Configuration
+2026-01-05 23:42:11,646 | INFO | pytest | windows/wja/test_wja4_navigation.py::test_quick_device_discovery took 25.56s
+2026-01-05 23:43:12,622 | INFO | pytest | windows/wja/test_wja5_group_create.py::test_create_and_delete_group took 59.88s
+2026-01-05 23:43:12,624 | INFO | pytest | Closing HP Web Jetadmin

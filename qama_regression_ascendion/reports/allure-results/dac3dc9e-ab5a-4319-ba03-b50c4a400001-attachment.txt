@@ -1,0 +1,2 @@
+[32mINFO    [0m libs.flows.windows.wja.wja_main_page:wja_main_page.py:22 Opened About dialog
+[32mINFO    [0m libs.flows.windows.wja.wja_main_page:wja_main_page.py:35 Opened About details and closed

@@ -1,0 +1,3 @@
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:26 Resolving TreeView once
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:37 Caching tree item: \All Devices
+[32mINFO    [0m libs.flows.windows.wja.wja_device_tree_page:wja_device_tree_page.py:40 Selecting tree item: all

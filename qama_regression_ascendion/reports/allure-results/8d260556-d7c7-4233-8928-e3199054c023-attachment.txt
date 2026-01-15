@@ -1,0 +1,4 @@
+[32mINFO    [0m libs.flows.windows.wja.wja_navigation_page:wja_navigation_page.py:39 Navigating to Overview
+[32mINFO    [0m libs.flows.windows.wja.wja_navigation_page:wja_navigation_page.py:39 Navigating to Groups
+[32mINFO    [0m libs.flows.windows.wja.wja_navigation_page:wja_navigation_page.py:39 Navigating to Discovery
+[32mINFO    [0m libs.flows.windows.wja.wja_navigation_page:wja_navigation_page.py:39 Navigating to Configuration

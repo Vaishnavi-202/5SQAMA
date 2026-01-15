@@ -1,0 +1,5 @@
+# CODEOWNERS file for enforcing 3 reviewers in PRs
+# Format: <file pattern> <github usernames>
+
+# Apply to all files in the repository
+*  @viplove-bisen @maheshkumar-s @pooja-parween @amit-gupta8
