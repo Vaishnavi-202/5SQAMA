@@ -1,5 +1,7 @@
 from libs.flows.windows.wja.group_management_page import NavigationPage
+import pytest
 
+pytestmark = pytest.mark.wja
 
 def test_create_and_delete_group(app):
     nav = NavigationPage(app)

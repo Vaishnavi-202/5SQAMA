@@ -1,4 +1,7 @@
 from libs.flows.windows.wja.wja_navigation_page import MainPage
+import pytest
+
+pytestmark = pytest.mark.wja
 
 def test_quick_device_discovery(app):
     main_page = MainPage(app)

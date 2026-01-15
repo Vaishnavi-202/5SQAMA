@@ -1,6 +1,8 @@
 import pytest
 from libs.flows.windows.wja.wja_device_tree_page import WJADeviceTreePage
+import pytest
 
+pytestmark = pytest.mark.wja
 
 # @pytest.mark.desktop
 def test_device_navigation_tree_items(app):

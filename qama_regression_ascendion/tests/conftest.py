@@ -8,9 +8,13 @@ import allure
 from PIL import ImageGrab
 from allure_commons.types import AttachmentType
 
-from libs.app_package.wja_win_app import launch_and_prepare_wja
 from qama_regression_ascendion.config.logger import get_logger
 
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 
 # =================================================
 # LOGGER
@@ -29,8 +33,8 @@ warnings.filterwarnings("ignore", category=UserWarning, module="PIL")
 # =================================================
 # SESSION APP FIXTURE
 # =================================================
-@pytest.fixture(scope="session")
-def app():
+'''@pytest.fixture(scope="session")
+def app(request):
     log.info("Initializing HP Web Jetadmin session")
     
     # Unpack the app instance and the boolean flag
@@ -47,8 +51,26 @@ def app():
             log.info("App was launched from EXE; performing teardown and killing process.")
             app_instance.kill()
     except Exception as e:
-        log.warning(f"App close failed or was not necessary: {e}")
+        log.warning(f"App close failed or was not necessary: {e}")'''
 
+@pytest.fixture(scope="session")
+def app(request):
+    # If no test uses wja marker → do nothing
+    if not any(item.get_closest_marker("wja") for item in request.session.items):
+        yield None
+        return
+
+    # Import ONLY when needed
+    from libs.app_package.wja_win_app import launch_and_prepare_wja
+
+    app_instance, was_already_open = launch_and_prepare_wja()
+    yield app_instance
+
+    if not was_already_open:
+        try:
+            app_instance.kill()
+        except Exception:
+            pass
 
 # =================================================
 # TEST EXECUTION TIMER (START)
