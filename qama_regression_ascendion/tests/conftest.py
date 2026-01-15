@@ -30,6 +30,16 @@ warnings.filterwarnings("ignore", category=UserWarning, module="pywinauto")
 warnings.filterwarnings("ignore", category=UserWarning, module="PIL")
 
 
+def pytest_ignore_collect(path, config):
+    path_str = str(path)
+
+    # Ignore WJA tests on non-Windows platforms
+    if "tests/windows/wja" in path_str:
+        if not sys.platform.startswith("win"):
+            return True
+
+    return False
+
 # =================================================
 # SESSION APP FIXTURE
 # =================================================
