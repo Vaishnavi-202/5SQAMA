@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'WJA-WINDOWS' }
+    agent { label 'windows && wja' }
 
     options {
         timestamps()
