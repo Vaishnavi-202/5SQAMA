@@ -3,11 +3,6 @@ name: WJA CI – Windows Tests
 on:
   push:
     branches: ["main"]
-    paths:
-      - "qama_regression_ascendion/libs/app_package/**"
-      - "qama_regression_ascendion/libs/flows/windows/wja/**"
-      - "qama_regression_ascendion/tests/windows/wja/**"
-
   pull_request:
     branches: ["main"]
     paths:
