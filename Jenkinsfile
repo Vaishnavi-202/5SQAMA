@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'windows && wja' }
+    agent { label 'wja' }
 
     options {
         timestamps()
@@ -40,7 +40,7 @@ pipeline {
 
         stage('Run WJA Tests') {
             steps {
-                dir('qama_regression_ascendion') {
+                dir("${WORKSPACE}/qama_regression_ascendion") {
                     bat '''
                     pytest -v tests/windows/wja --alluredir=allure-results
                     '''
