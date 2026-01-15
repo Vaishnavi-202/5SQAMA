@@ -1,0 +1,55 @@
+name: WJA CI – Windows Tests
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "qama_regression_ascendion/libs/app_package/**"
+      - "qama_regression_ascendion/libs/flows/windows/wja/**"
+      - "qama_regression_ascendion/tests/windows/wja/**"
+
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "qama_regression_ascendion/libs/app_package/**"
+      - "qama_regression_ascendion/libs/flows/windows/wja/**"
+      - "qama_regression_ascendion/tests/windows/wja/**"
+
+jobs:
+  wja-tests:
+    runs-on: windows-latest
+
+    defaults:
+      run:
+        working-directory: qama_regression_ascendion
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install pytest
+          python -m pip install allure-pytest
+          python -m pip install pillow
+          python -m pip install pywinauto
+
+      - name: Run WJA tests
+        run: |
+          python -m pytest -v -s tests/windows/wja --alluredir=allure-results
+
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: qama_regression_ascendion/allure-results
+          if-no-files-found: warn
