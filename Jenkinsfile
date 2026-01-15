@@ -2,7 +2,6 @@ pipeline {
     agent { label 'wja' }
 
     options {
-        timestamps()
         disableConcurrentBuilds()
     }
 
@@ -20,20 +19,24 @@ pipeline {
 
         stage('Python Setup') {
             steps {
-                bat '''
-                python --version
-                python -m pip install --upgrade pip
-                pip install pytest allure-pytest pillow pywinauto
-                '''
+                timestamps {
+                    bat '''
+                    python --version
+                    python -m pip install --upgrade pip
+                    pip install pytest allure-pytest pillow pywinauto
+                    '''
+                }
             }
         }
 
         stage('Run WJA Tests') {
             steps {
-                bat '''
-                cd qama_regression_ascendion
-                pytest -v -m %TEST_SUITE% --alluredir=allure-results
-                '''
+                timestamps {
+                    bat '''
+                    cd qama_regression_ascendion
+                    pytest -v -m wja --alluredir=allure-results
+                    '''
+                }
             }
         }
     }
