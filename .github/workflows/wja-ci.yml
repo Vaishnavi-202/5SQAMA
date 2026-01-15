@@ -27,7 +27,7 @@ jobs:
       - name: Run NON-WJA tests
         working-directory: qama_regression_ascendion
         run: |
-          pytest -m "not wja" --alluredir=allure-results
+          python -m pytest -v -s tests/windows/wja --alluredir=allure-results
 
       - name: Upload Allure results
         if: always()
